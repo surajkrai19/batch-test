@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.batch.job.batchtest.BatchTestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-13T14:35:05" hostname="MANJU-NOTEBOOK" time="1.191">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.batch.job.batchtest.BatchTestApplicationTests" time="1.191"/>
+  <system-out><![CDATA[20:05:04.139 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.batch.job.batchtest.BatchTestApplicationTests]: BatchTestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:05:04.324 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.batch.job.batchtest.BatchTestApplication for test class com.batch.job.batchtest.BatchTestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.1.10)
+
+2024-04-13T20:05:04.966+05:30  INFO 1548 --- [    Test worker] c.b.j.b.BatchTestApplicationTests        : Starting BatchTestApplicationTests using Java 17.0.10 with PID 1548 (started by suraj in C:\Workspaces\batch-test\batch-test)
+2024-04-13T20:05:04.969+05:30  INFO 1548 --- [    Test worker] c.b.j.b.BatchTestApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-04-13T20:05:05.696+05:30  INFO 1548 --- [    Test worker] c.b.j.b.BatchTestApplicationTests        : Started BatchTestApplicationTests in 1.071 seconds (process running for 2.907)
+Executing Task1
+Executing Task2
+Executing Task3
+Written to file : opt/a.txt
+Content read from file:  Hello, world! Hello, world!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+# Default values for demo-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+job:
+  name: "batchjob"
+  backoffLimit: 1
+container:
+  name: "batchjob"
+image:
+  repository: batch_app
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"

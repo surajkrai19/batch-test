@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: batchjob
+spec:
+  template:
+    spec:
+      containers:
+        - name: batchjob
+          image: batch_app:latest
+          imagePullPolicy: IfNotPresent
+      restartPolicy: Never
+  backoffLimit: 1
